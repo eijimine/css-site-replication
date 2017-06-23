@@ -6,22 +6,47 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: auto;
   background: url(../images/bgtile.png);
   background-repeat: repeat-x;
 }
 
 main  {
+  display: inline-block;
+  clear: both;
+  margin: auto;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: large;
+}
+
+p {
+  font-size: small;
 }
 
 .bigimage {
-  float: left;
-  
-
+    float: left;
+    padding: 8em 3em 1em 6em;
+    margin: auto;
 }
 
 .rightside {
+  float: right;
   width: 400px
+}
+
+.textbox {
+    position: absolute;
+    z-index: 600;
+    width: 342px;
+    left: 491px;
+    top: 251px;
 }
 
 footer nav {
@@ -31,8 +56,101 @@ footer nav {
 footer nav a {
   color: #1c5380;
   text-decoration: none;
+  font-size: smaller;
+  font-weight: bold;
+  padding: 5px;
 }
 
 footer span {
   color: grey;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.whiteimage {
+    z-index: 500;
+    position: relative;
+    top: 140px;
+    width: 406px;
+}
+
+.whiteimage img {
+  width: 412px;
+}
+
+.instalogo {
+    float: left;
+    padding: 1em 1.9em 0.3em 0.1em;
+}
+
+.instaloginbar {
+    position: relative;
+    top: 133px;
+    width: 420px;
+}
+
+.loginbox {
+}
+
+.houseimage {
+    float: left;
+}
+
+.loginbox {
+}
+
+.instalogo img {
+    width: 259px;
+}
+
+h2 {
+    color: gainsboro;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    left: 6px;
+  }
+
+.loginbox {
+    position: relative;
+    top: 35px;
+}
+
+h2 {
+    color: gainsboro;
+    font-weight: bold;
+    font-size: small;
+}
+
+button {
+    width: 95px;
+    background: #476492;
+}
+
+.houseimage img {
+    float: left;
+}
+
+.textbox {
+  color: #414186;
+}
+
+.iphonebutton img {
+    float: left;
+    margin: 6px;
+}
+
+.androidbutton img {
+    margin: 6px;
+}
+
+.downloadbuttons {
+    margin-top: 32px;
+}
+
+footer nav {
+    text-align: center;
+    position: relative;
+    top: 45px;
+    margin: auto;
 }
